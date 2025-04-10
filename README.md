@@ -1,4 +1,4 @@
-# MMTwin
+# MMTwin: New Path to Human-Robot Policy Transfer?
 
 <img src="https://github.com/IRMVLab/MMTwin/blob/main/title_page.png" />
 
