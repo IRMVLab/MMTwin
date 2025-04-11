@@ -10,9 +10,9 @@ Your patience is appreciated :)
 
 | Task | Description | Link (Raw) | Link (Preprocessed) |
 |----------|----------|----------|----------|
-|    Task 1     |    place the cup on the coaster     |    [hand_data_red_cup.tar.gz](https://pan.sjtu.edu.cn/web/share/921173eaddd9f64c609b78bcd0314174)  |  [hand_data_for_pipeline_mask_redcup.tar.gz]()   |
-|    Task 2     |    put the apple on the plate     |    [hand_data_red_apple.tar.gz](https://pan.sjtu.edu.cn/web/share/ff0e36b5db1e0192d64d5cbfb5597b5c)    |  [hand_data_for_pipeline_mask_redapple.tar.gz]()   |
-|    Task 3     |    place the box on the shelf     |    [hand_data_box.tar.gz]()     |  [hand_data_for_pipeline_mask_box.tar.gz]()   |
+|    1     |    place the cup on the coaster     |    [hand_data_red_cup.tar.gz](https://pan.sjtu.edu.cn/web/share/921173eaddd9f64c609b78bcd0314174)  |  [hand_data_for_pipeline_mask_redcup.tar.gz]()   |
+|    2     |    put the apple on the plate     |    [hand_data_red_apple.tar.gz](https://pan.sjtu.edu.cn/web/share/ff0e36b5db1e0192d64d5cbfb5597b5c)    |  [hand_data_for_pipeline_mask_redapple.tar.gz]()   |
+|    3     |    place the box on the shelf     |    [hand_data_box.tar.gz]()     |  [hand_data_for_pipeline_mask_box.tar.gz]()   |
 
 
 
