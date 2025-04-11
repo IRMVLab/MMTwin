@@ -15,11 +15,11 @@ Your patience is appreciated :)
 
 ## CABH Benchmark
 
-| Task | Description | Link (Raw) | Link (Preprocessed) |
+| Task | Description | Link (Raw) | Link (Preprocessed) | Link (GLIP feats) |
 |----------|----------|----------|----------|
-|    1     |    place the cup on the coaster     |    [hand_data_red_cup.tar.gz](https://pan.sjtu.edu.cn/web/share/921173eaddd9f64c609b78bcd0314174)  |  [hand_data_for_pipeline_mask_redcup.tar.gz](https://pan.sjtu.edu.cn/web/share/56557c9526a9c2faa37150e8eeb1bca3)   |
-|    2     |    put the apple on the plate     |    [hand_data_red_apple.tar.gz](https://pan.sjtu.edu.cn/web/share/ff0e36b5db1e0192d64d5cbfb5597b5c)    |  [hand_data_for_pipeline_mask_redapple.tar.gz](https://pan.sjtu.edu.cn/web/share/064b9fe4e5acaca3408e1293a27eae35)   |
-|    3     |    place the box on the shelf     |    [hand_data_box.tar.gz]()     |  [hand_data_for_pipeline_mask_box.tar.gz](https://pan.sjtu.edu.cn/web/share/56cacb8a5a65dd71dd6cf304bc6e3f19)   |
+|    1     |    place the cup on the coaster     |    [hand_data_red_cup.tar.gz](https://pan.sjtu.edu.cn/web/share/921173eaddd9f64c609b78bcd0314174)  |  [hand_data_for_pipeline_mask_redcup.tar.gz](https://pan.sjtu.edu.cn/web/share/56557c9526a9c2faa37150e8eeb1bca3)   | [glip_feats_redcup]()  |
+|    2     |    put the apple on the plate     |    [hand_data_red_apple.tar.gz](https://pan.sjtu.edu.cn/web/share/ff0e36b5db1e0192d64d5cbfb5597b5c)    |  [hand_data_for_pipeline_mask_redapple.tar.gz](https://pan.sjtu.edu.cn/web/share/064b9fe4e5acaca3408e1293a27eae35)   | [glip_feats_redapple]()   |
+|    3     |    place the box on the shelf     |    [hand_data_box.tar.gz](https://pan.sjtu.edu.cn/web/share/898718217ac4b8f0640578e38f04b8d2)     |  [hand_data_for_pipeline_mask_box.tar.gz](https://pan.sjtu.edu.cn/web/share/56cacb8a5a65dd71dd6cf304bc6e3f19)   |  [glip_feats_box]()  |
 
 
 
