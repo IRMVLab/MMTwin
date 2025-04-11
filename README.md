@@ -8,8 +8,8 @@ Your patience is appreciated :)
 
 
 ## TODO
-- [x] Release the paper  :smile:
-- [x] Release our self-collected CABH Benchmark for fast HTP evaluation  :smile:
+- [x] Release the paper  :bowtie:
+- [x] Release our self-collected CABH Benchmark for fast HTP evaluation :sunglasses:	
 - [ ] Release the code and pretrained models
 
 
