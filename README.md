@@ -24,6 +24,7 @@ Your patience is appreciated :)
 * **Link (raw)**: Raw RGB and depth images from headset realsense D435i.
 * **Link (preprocessed)**: Preprocessed data for HTP. Please refer to `read_cabh.ipynb` for more details.
 * **Link (GLIP feats)**: Vision features extracted by [GLIP](https://github.com/microsoft/GLIP), a powerful visual grounding model.
+* **Link (train/test splits)**: The dataset splits used in our paper.
 
 If our work is helpful to your research, we would appreciate a citation to our paper:
 
