@@ -6,6 +6,12 @@ The code and pretrained models for our paper "Novel Diffusion Models for Multimo
 
 Your patience is appreciated :)
 
+
+## TODO
+- [x] Release our self-collected CABH Benchmark for fast HTP evaluation
+- [ ] Release the code and pretrained models
+
+
 ## CABH Benchmark
 
 | Task | Description | Link (Raw) | Link (Preprocessed) |
