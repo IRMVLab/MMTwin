@@ -13,6 +13,10 @@ We are updating the tutorials. Your patience is appreciated :)
 - [ ] Release the code and pretrained models
 
 ## Suggested Data Structure
+
+<details>
+<summary>&#x1F4C1 You can follow the default data structure for fast reproduce. </summary>
+
 ```
 HTPdata/
 |-- EgoPAT3D-postproc
@@ -25,6 +29,8 @@ HTPdata/
       |-- egopat_voxel_filtered
 |-- CABH-benchmark
 ```
+</details>
+
 
 
 
