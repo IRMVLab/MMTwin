@@ -15,7 +15,7 @@ We are updating the tutorials. Your patience is appreciated :)
 ## Suggested Data Structure
 
 <details>
-<summary>&#x1F4C1 You can follow the default data structure for fast reproduce. </summary>
+<summary>&#x1F4C1 You can follow the default data structure for fast reproducing. </summary>
 
 ```
 HTPdata/
