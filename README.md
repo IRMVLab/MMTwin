@@ -18,7 +18,7 @@ Your patience is appreciated :)
 We collected multiple egocentric videos capturing human hands performing simple object manipulation tasks. This benchmark enables rapid validation of the potential of human hand trajectory prediction models for downstream manipulation applications.​​
 
 ![](https://github.com/IRMVLab/MMTwin/blob/main/docs/pred_combined.gif)
-Past trajectories are shown in green, and MMTwin’s predicted future trajectories are displayed in red. The direct detection results from the visual grounding model on future frames are visualized in blue. As can be seen, MMTwin outperforms the visual grounding model even if the visual grounding model can "look into future".
+Past trajectories are shown in green, and MMTwin’s predicted future trajectories are displayed in red. The direct detection results from the visual grounding model on future frames are visualized in blue. As can be seen, MMTwin demonstrates performance comparable to the visual grounding model even if the visual grounding model can "look into future".
 
 
 | Task | Description | Link (raw) | Link (preprocessed) | Link (GLIP feats) | Link (train/test splits) |
