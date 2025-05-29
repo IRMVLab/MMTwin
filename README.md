@@ -33,7 +33,7 @@ We are updating the tutorials. Your patience is appreciated :)
 * Vision-language Feature Extraction
 
 You can directly download our preprocessed files as follows:
-| Description | Link (raw) | Config |
+| Description | Link | Config |
 |----------|----------|----------|
 | EgoPAT3D-DT from USST | [EgoPAT3D-postproc](https://pan.sjtu.edu.cn/web/share/f2783a1b3cfca7106175e86f7e089314)  | xx | 
 | camera egomotion | [motion_feats](https://pan.sjtu.edu.cn/web/share/383e0314aa1cd3348640d82b10a785f1)  | xx | 
