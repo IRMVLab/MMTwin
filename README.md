@@ -42,6 +42,7 @@ HTPdata/
 <details>
 <summary>&#x1F527 We provide some scripts to generate necessary files manually. </summary>
 
+
 * Camera Egomotion Generation 
 
 Please refer to the confid file `preprocess/CamEgoGen/ceg.yml`.  
