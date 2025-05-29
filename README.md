@@ -21,7 +21,7 @@ Your patience is appreciated :)
 |    2     |    put the apple on the plate     |    [hand_data_red_apple.tar.gz](https://pan.sjtu.edu.cn/web/share/ff0e36b5db1e0192d64d5cbfb5597b5c)    |  [hand_data_for_pipeline_mask_redapple.tar.gz](https://pan.sjtu.edu.cn/web/share/064b9fe4e5acaca3408e1293a27eae35)   | [glip_feats_redapple.tar.gz](https://pan.sjtu.edu.cn/web/share/eba393250a4c960a46cb566aaa88c10c)   | [train_split.txt](https://pan.sjtu.edu.cn/web/share/51236f59c34741084eef0e13378ca6ce)/[test_split.txt](https://pan.sjtu.edu.cn/web/share/8eeca488c3212e210b1be65ca25fd128)   |
 |    3     |    place the box on the shelf     |    [hand_data_box.tar.gz](https://pan.sjtu.edu.cn/web/share/898718217ac4b8f0640578e38f04b8d2)     |  [hand_data_for_pipeline_mask_box.tar.gz](https://pan.sjtu.edu.cn/web/share/56cacb8a5a65dd71dd6cf304bc6e3f19)   |  [glip_feats_box.tar.gz](https://pan.sjtu.edu.cn/web/share/13b67a41937e61f8048a2a805290834f)  | [train_split.txt](https://pan.sjtu.edu.cn/web/share/338844753b5023ff588f68030226eef9)/[test_split.txt](https://pan.sjtu.edu.cn/web/share/7bcd035fbbb4cff348ab9cbe5d59114f)  |
 
-<img src="https://github.com/IRMVLab/MMTwin/blob/main/docs/pred_combined.gif" />
+<img src="https://github.com/IRMVLab/MMTwin/blob/main/docs/pred_combined.gif?raw=true" />
 
 * **Link (raw)**: Raw RGB and depth images from headset realsense D435i.
 * **Link (preprocessed)**: Preprocessed data for HTP. Please refer to `read_cabh.ipynb` for more details.
