@@ -39,6 +39,7 @@ You can directly download our preprocessed files as follows:
 | camera egomotion | [motion_feats](https://pan.sjtu.edu.cn/web/share/383e0314aa1cd3348640d82b10a785f1)  | xx | 
 | occupancy voxel grids | [egopat_voxel_filtered](https://pan.sjtu.edu.cn/web/share/db130ef239321f33953074f71157e01e)    | xx |
 | MobileSAM requirements | [MobileSAMv2](https://pan.sjtu.edu.cn/web/share/2e043be9b77d84183b2eaa97d26d7efd)     | xx | 
+| point cloud example from raw EgoPAT3D | [pointcloud_bathroomCabinet_1](https://pan.sjtu.edu.cn/web/share/f78421cdabf38c5f0fb360232d9249bd)    | xx |
 
 
 #### 1. Test MMTwin on EgoPAT3D-DT
