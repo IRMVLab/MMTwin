@@ -15,6 +15,12 @@ Your patience is appreciated :)
 
 ## CABH Benchmark
 
+We collected multiple egocentric videos capturing human hands performing simple object manipulation tasks. This benchmark enables rapid validation of the potential of human hand trajectory prediction models for downstream manipulation applications.​​
+
+![](https://github.com/IRMVLab/MMTwin/blob/main/docs/pred_combined.gif)
+Past trajectories are shown in green, and MMTwin’s predicted future trajectories are displayed in red. The direct detection results from the visual grounding model on future frames are visualized in blue. As can be seen, MMTwin outperforms the visual grounding model even if the visual grounding model can "look into future".
+
+
 | Task | Description | Link (raw) | Link (preprocessed) | Link (GLIP feats) | Link (train/test splits) |
 |----------|----------|----------|----------|----------|----------|
 |    1     |    place the cup on the coaster     |    [hand_data_red_cup.tar.gz](https://pan.sjtu.edu.cn/web/share/921173eaddd9f64c609b78bcd0314174)  |  [hand_data_for_pipeline_mask_redcup.tar.gz](https://pan.sjtu.edu.cn/web/share/56557c9526a9c2faa37150e8eeb1bca3)   | [glip_feats_redcup.tar.gz](https://pan.sjtu.edu.cn/web/share/1cef4958eea97fe41c889111095c18d5)  |  [train_split.txt](https://pan.sjtu.edu.cn/web/share/f9fa399422307f7b3e32bed2f534c8ff)/[test_split.txt](https://pan.sjtu.edu.cn/web/share/548b44a2fbfc0795020d7e51d8b52aa6)    |
@@ -22,7 +28,6 @@ Your patience is appreciated :)
 |    3     |    place the box on the shelf     |    [hand_data_box.tar.gz](https://pan.sjtu.edu.cn/web/share/898718217ac4b8f0640578e38f04b8d2)     |  [hand_data_for_pipeline_mask_box.tar.gz](https://pan.sjtu.edu.cn/web/share/56cacb8a5a65dd71dd6cf304bc6e3f19)   |  [glip_feats_box.tar.gz](https://pan.sjtu.edu.cn/web/share/13b67a41937e61f8048a2a805290834f)  | [train_split.txt](https://pan.sjtu.edu.cn/web/share/338844753b5023ff588f68030226eef9)/[test_split.txt](https://pan.sjtu.edu.cn/web/share/7bcd035fbbb4cff348ab9cbe5d59114f)  |
 
 
-![](https://github.com/IRMVLab/MMTwin/blob/main/docs/pred_combined.gif)
 
 * **Link (raw)**: Raw RGB and depth images from headset realsense D435i.
 * **Link (preprocessed)**: Preprocessed data for HTP. Please refer to `read_cabh.ipynb` for more details.
