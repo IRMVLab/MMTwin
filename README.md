@@ -18,7 +18,7 @@ Your patience is appreciated :)
 
 #### 0. Data Preprocessing (optional)
 
-* Camera Egomotion Generation
+* Camera Egomotion Generation 
 
 * Arm Filtering for Clean Global Context
 
