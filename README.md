@@ -33,17 +33,22 @@ HTPdata/
 
 
 
-
-
 ## Benchmark Evaluation
 
 ### EgoPAT3D
 
 #### 0. Data Preprocessing (optional)
 
+<details>
+<summary>&#x1F527 We provide some scripts to generate necessary files manually. </summary>
+
 * Camera Egomotion Generation 
 
+* Vision-language Feature Extraction
+
 * Arm Filtering for Clean Global Context
+
+</details>
 
 <div style="display: flex; justify-content: space-between; width: 100%;">
   <img src="./docs/raw_image.png" style="height: 120px; object-fit: contain; flex: 1;" />
@@ -51,11 +56,7 @@ HTPdata/
   <img src="./docs/filtered_pc.png" style="height: 120px; object-fit: contain; flex: 1;" />
 </div>
 
-
-
-* Vision-language Feature Extraction
-
-You can directly download our preprocessed files as follows:
+Alternatively, you can directly download our preprocessed files as follows:
 | Description | Link | Config |
 |----------|----------|----------|
 | EgoPAT3D-DT from USST | [EgoPAT3D-postproc](https://pan.sjtu.edu.cn/web/share/f2783a1b3cfca7106175e86f7e089314)  | xx | 
