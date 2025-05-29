@@ -23,9 +23,9 @@ Your patience is appreciated :)
 * Arm Filtering for Clean Global Context
 
 <div style="display: flex; justify-content: space-between; width: 100%;">
-  <img src="./docs/raw_image.png" style="height: 100px; object-fit: contain; flex: 1;" />
-  <img src="./docs/arm_mask.png" style="height: 100px; object-fit: contain; flex: 1;" />
-  <img src="./docs/filtered_pc.png" style="height: 100px; object-fit: contain; flex: 1;" />
+  <img src="./docs/raw_image.png" style="height: 120px; object-fit: contain; flex: 1;" />
+  <img src="./docs/arm_mask.png" style="height: 120px; object-fit: contain; flex: 1;" />
+  <img src="./docs/filtered_pc.png" style="height: 120px; object-fit: contain; flex: 1;" />
 </div>
 
 
