@@ -20,6 +20,7 @@ We collected multiple egocentric videos capturing human hands performing simple 
 ![](https://github.com/IRMVLab/MMTwin/blob/main/docs/pred_combined.gif)
 Past trajectories are shown in green, and MMTwin’s predicted future trajectories are displayed in red. The direct detection results from the visual grounding model on future frames are visualized in blue. As can be seen, MMTwin demonstrates performance comparable to the visual grounding model even if the visual grounding model can "look into future".
 
+Feel free to download the raw/preprocessed data of CABH benchmark.
 
 | Task | Description | Link (raw) | Link (preprocessed) | Link (GLIP feats) | Link (train/test splits) |
 |----------|----------|----------|----------|----------|----------|
