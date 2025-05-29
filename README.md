@@ -12,8 +12,39 @@ Your patience is appreciated :)
 - [x] Release our self-collected CABH Benchmark for fast HTP evaluation :sunglasses:	
 - [ ] Release the code and pretrained models
 
+## Benchmark Evaluation
 
-## CABH Benchmark
+### EgoPAT3D
+
+#### 0. Data Preprocessing (optional)
+
+* Camera Egomotion Generation
+
+* Arm Filtering for Clean Global Context
+
+<div style="display: flex; justify-content: space-between; width: 100%;">
+  <img src="./docs/raw_image.png" style="height: 250px; object-fit: contain; flex: 1;" />
+  <img src="./docs/arm_mask.png" style="height: 250px; object-fit: contain; flex: 1;" />
+  <img src="./docs/filtered_pc.png" style="height: 250px; object-fit: contain; flex: 1;" />
+</div>
+
+
+
+* Vision-language Feature Extraction
+
+You can directly download our preprocessed files as follows:
+
+#### 1. Test MMTwin on EgoPAT3D-DT
+
+
+#### 2. Train MMTwin on EgoPAT3D-DT
+
+
+
+
+
+
+### CABH Benchmark
 
 We collected multiple egocentric videos capturing human hands performing simple object manipulation tasks. This benchmark enables rapid validation of the potential of human hand trajectory prediction models for downstream manipulation applications.​​
 
