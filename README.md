@@ -12,6 +12,23 @@ We are updating the tutorials. Your patience is appreciated :)
 - [x] Release our self-collected CABH Benchmark for fast HTP evaluation :sunglasses:	
 - [ ] Release the code and pretrained models
 
+## Suggested Data Structure
+```
+HTPdata/
+|-- EgoPAT3D-postproc
+      |-- odometry
+      |-- trajectory_repair
+      |-- video_clips_hand
+      |-- pointcloud_bathroomCabinet_1  # for demo
+      |-- glip_feats
+      |-- motion_feats
+      |-- egopat_voxel_filtered
+|-- CABH-benchmark
+```
+
+
+
+
 ## Benchmark Evaluation
 
 ### EgoPAT3D
