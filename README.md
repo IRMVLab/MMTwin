@@ -33,7 +33,7 @@ Feel free to download the raw/preprocessed data of CABH benchmark.
 * **Link (raw)**: Raw RGB and depth images from headset realsense D435i.
 * **Link (preprocessed)**: Preprocessed data for HTP. Please refer to `read_cabh.ipynb` for more details.
 * **Link (GLIP feats)**: Vision-language features extracted by [GLIP](https://github.com/microsoft/GLIP), a powerful visual grounding model.
-* **Link (train/test splits)**: The dataset splits used in our paper.
+* **Link (train/test splits)**: The dataset splits used for training and evaluation.
 
 We also collected an extension of the CABH benchmark to evaluate multi-finger prediction, which will be released soon.
 
