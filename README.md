@@ -48,7 +48,7 @@ HTPdata/
 #### 0. Data Preprocessing (optional)
 
 <details>
-<summary>&#x1F527 We provide some scripts to generate necessary files manually. </summary>
+<summary>&#x1F527 We provide some scripts to peocess raw data manually. </summary>
 
 <br> 
 
