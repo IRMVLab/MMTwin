@@ -32,10 +32,10 @@ HTPdata/
             |-- hand_data_for_pipeline_mask_redcup
             |-- glip_feats_redcup
             |-- motion_feats_redcup
+            |-- train_split.txt
+            |-- test_split.txt
       |-- redapple
       |-- box
-
-
 ```
 </details>
 
