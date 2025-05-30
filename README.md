@@ -175,7 +175,17 @@ Past trajectories are shown in green, and MMTwin’s predicted future trajectori
 * **Link (GLIP feats)**: Vision-language features extracted by [GLIP](https://github.com/microsoft/GLIP), a powerful visual grounding model.
 * **Link (train/test splits)**: The dataset splits used for training and evaluation.
 
+
+## Work in Progress
+
+### CABH-E
+
 We also collected an extension of the CABH benchmark to evaluate multi-finger prediction, which will be released soon.
+
+### Human-Robot Policy Transfer
+
+​​We are working on directly transferring MMTwin (trained on human motion data) to robotic manipulation, and the transfer paradigm will also be open-sourced.
+
 
 🤝 If our work is helpful to your research, we would appreciate a citation to our paper:
 
