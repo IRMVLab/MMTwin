@@ -61,7 +61,38 @@ python generate_homography_offline.py
 
 * Vision-Language Feature Extraction
 
-The pipeline based on GLIP is coming soon. 
+Please clone the original GLIP repo and merge it to `VLExtraction` by
+```
+cd preprocess
+git clone https://github.com/microsoft/GLIP
+rsync -a --progress GLIP/ VLExtraction/ 
+cd VLExtraction
+```
+Then install requirements of GLIP and modify its source code to collect vision-language fusion features as follows:
+
+```
+1. maskrcnn_benchmark/modeling/detector/generalized_vl_rcnn.py
+def forward(self, 
+      ...
+      return result
+->    return result, fused_visual_features
+
+2. maskrcnn_benchmark/engine/predictor_glip.py
+def compute_prediction(self, original_image, 
+      ...
+      predictions = self.model(image_list, ...
+->    predictions, visual_features = self.model(image_list, ...
+
+3. maskrcnn_benchmark/engine/predictor_glip.py
+def run_on_web_image(self, 
+      ...
+      predictions = self.compute_prediction(original_image, ...
+->    predictions, visual_features = self.compute_prediction(original_image, ...
+```
+After modifying the params in `preprocess/VLExtraction/vle.yml`, you can use this script to generate GLIP features for all the videos in EgoPAT3D-DT:
+```
+python generate_homography_offline.py
+```
 
 
 * Point Cloud Aggregation
