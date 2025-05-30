@@ -28,6 +28,14 @@ HTPdata/
       |-- motion_feats
       |-- egopat_voxel_filtered
 |-- CABH-benchmark
+      |-- redcup
+            |-- hand_data_for_pipeline_mask_redcup
+            |-- glip_feats_redcup
+            |-- motion_feats_redcup
+      |-- redapple
+      |-- box
+
+
 ```
 </details>
 
