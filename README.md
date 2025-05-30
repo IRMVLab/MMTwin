@@ -52,7 +52,7 @@ HTPdata/
 
 <br> 
 
-* Camera Egomotion Generation 
+* 0.1 Camera Egomotion Generation 
 
 Please refer to the confid file `preprocess/CamEgoGen/ceg.yml`.  
 ```
@@ -60,7 +60,7 @@ cd preprocess/CamEgoGen
 python generate_homography_offline.py
 ```
 
-* Vision-Language Feature Extraction
+* 0.2 Vision-Language Feature Extraction
 
 Please clone the original GLIP repo and merge it to `VLExtraction` by
 ```
@@ -95,8 +95,7 @@ After modifying the params in `preprocess/VLExtraction/vle.yml`, you can use thi
 python generate_homography_offline.py
 ```
 
-
-* Point Cloud Aggregation
+* 0.3 Point Cloud Aggregation
 
 We transform sequential point clouds to a unified reference frame for voxelization. Here is a demo to aggregate them. Please refer to the confid file `preprocess/PC2Voxel/p2v.yml`.  
 
@@ -105,7 +104,9 @@ cd preprocess/PC2Voxel
 python generate_occupancy_offline.py
 ```
 
-* Arm Filtering for Clean Global Context
+This is just a demo to aggregate depth points. You can also use the point clouds processed with arm masks (0.4) as inputs.
+
+* 0.4 Arm Filtering for Clean Global Context
 
 We use MobileSAM to efficiently filter our arm point clouds for clean 3D global context. Please install the environments according to this [repo](https://github.com/ChaoningZhang/MobileSAM). Our repo has accomodated MobileSAM repo, and you can download [MobileSAMv2](https://pan.sjtu.edu.cn/web/share/2e043be9b77d84183b2eaa97d26d7efd) and unzip it under preprocess/MobileSAM/. Remember to modify the params in `preprocess/MobileSAM/ms.yml`.  
 
