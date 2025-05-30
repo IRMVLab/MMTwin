@@ -89,7 +89,7 @@ python loop_arm_pc_filter_egopat3d.py
   <img src="./docs/filtered_pc.png" style="height: 120px; object-fit: contain; flex: 1;" />
 </div>
 
-Alternatively, you can directly download our preprocessed files as follows:
+⬇️ Alternatively, you can directly download our preprocessed files as follows:
 | Description | Link | Config |
 |----------|----------|----------|
 | EgoPAT3D-DT from USST | [EgoPAT3D-postproc](https://pan.sjtu.edu.cn/web/share/f2783a1b3cfca7106175e86f7e089314)  | xx | 
@@ -116,7 +116,7 @@ We collected multiple egocentric videos capturing human hands performing simple 
 ![](https://github.com/IRMVLab/MMTwin/blob/main/docs/pred_combined.gif)
 Past trajectories are shown in green, and MMTwin’s predicted future trajectories are displayed in red. The direct detection results from the visual grounding model on future frames are visualized in blue. As can be seen, MMTwin demonstrates performance comparable to the visual grounding model even if the visual grounding model can "look into future".
 
-Feel free to download the raw/preprocessed data of CABH benchmark.
+⬇️ Feel free to download the raw/preprocessed data of CABH benchmark.
 
 | Task | Description | Link (raw) | Link (preprocessed) | Link (GLIP feats) | Link (train/test splits) |
 |----------|----------|----------|----------|----------|----------|
@@ -133,7 +133,7 @@ Feel free to download the raw/preprocessed data of CABH benchmark.
 
 We also collected an extension of the CABH benchmark to evaluate multi-finger prediction, which will be released soon.
 
-If our work is helpful to your research, we would appreciate a citation to our paper:
+🤝 If our work is helpful to your research, we would appreciate a citation to our paper:
 
 ```
 @misc{ma2025mmtwin,
