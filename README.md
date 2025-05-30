@@ -50,6 +50,7 @@ HTPdata/
 <details>
 <summary>&#x1F527 We provide some scripts to generate necessary files manually. </summary>
 
+<br> 
 
 * Camera Egomotion Generation 
 
