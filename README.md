@@ -166,13 +166,10 @@ Past trajectories are shown in green, and MMTwin’s predicted future trajectori
 |    3     |    place the box on the shelf     |    [hand_data_box](https://pan.sjtu.edu.cn/web/share/898718217ac4b8f0640578e38f04b8d2)     |  [hand_data_for_pipeline_mask_box](https://pan.sjtu.edu.cn/web/share/56cacb8a5a65dd71dd6cf304bc6e3f19)   |  [glip_feats_box](https://pan.sjtu.edu.cn/web/share/13b67a41937e61f8048a2a805290834f)  | [motion_feats_box](https://pan.sjtu.edu.cn/web/share/2ccb8b690e92def0d6e48d3c4a4cea9c)  | [train_split](https://pan.sjtu.edu.cn/web/share/338844753b5023ff588f68030226eef9)/[test_split](https://pan.sjtu.edu.cn/web/share/7bcd035fbbb4cff348ab9cbe5d59114f)  |
 
 
-
-
-
-
 * **Link (raw)**: Raw RGB and depth images from headset realsense D435i.
 * **Link (preprocessed)**: Preprocessed data for HTP. Please refer to `read_cabh.ipynb` for more details.
 * **Link (GLIP feats)**: Vision-language features extracted by [GLIP](https://github.com/microsoft/GLIP), a powerful visual grounding model.
+* **Link (motion info)**: Camera egomotion homography.
 * **Link (train/test splits)**: The dataset splits used for training and evaluation.
 
 
