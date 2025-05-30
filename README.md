@@ -104,7 +104,7 @@ cd preprocess/PC2Voxel
 python generate_occupancy_offline.py
 ```
 
-This is just a demo to aggregate depth points. You can also use the point clouds processed with arm masks (0.4) as inputs.
+This is just a demo to aggregate depth points. You can also use the point clouds processed with arm masks (0.4) as inputs. Notable, our main code can automatically achieve this and save the results to the required voxel files.
 
 * 0.4 Arm Filtering for Clean Global Context
 
