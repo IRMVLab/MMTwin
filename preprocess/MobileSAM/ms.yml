@@ -1,0 +1,22 @@
+demo:
+  video_path: "/data/HTPdata/EgoPAT3D-postproc/video_clips_hand/1/bathroomCabinet_1/c24_s1224_e1279_sx491_sy267_ex593_ey245.mp4"
+  test_point_path: "/data/HTPdata/EgoPAT3D-postproc/trajectory_repair/1/bathroomCabinet_1/c24_s1224_e1279_sx491_sy267_ex593_ey245.pkl"
+  pointcloud_dir: "/data/HTPdata/EgoPAT3D-postproc/pointcloud_bathroomCabinet_1/"
+  start_idx: 1224
+  output:
+    mask_dir: "./arm_mask"
+    pointcloud_dir: "./filtered_pointclouds"
+    raw_image_dir: "./raw_image"
+    show_filtered_pc: False
+loop:
+  videos_root: "/data/HTPdata/EgoPAT3D-postproc/video_clips_hand"
+  skip_parts: ['1', '2']  # You can skip some sets
+
+camera:
+  intrinsics:
+    fx: 1.80820276e+03
+    fy: 1.80794556e+03
+    ox: 1.94228662e+03
+    oy: 1.12382178e+03
+    width: 3840
+    height: 2160

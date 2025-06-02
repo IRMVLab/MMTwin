@@ -1,0 +1,8 @@
+# Egomotion configuration
+descriptor:
+  type: "sift"   # Options: sift/orb/brisk
+  match_type: "ransac"  # Options: ransac/magsac
+
+paths:
+  videos_root: "/data/HTPdata/EgoPAT3D-postproc/video_clips_hand"
+  dst_dir: "/data/HTPdata/EgoPAT3D-postproc/motion_feats"

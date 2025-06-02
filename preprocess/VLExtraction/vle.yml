@@ -1,0 +1,2 @@
+videos_root: "/data/HTPdata/EgoPAT3D-postproc/video_clips_hand"
+dst_dir: "/data/HTPdata/EgoPAT3D-postproc/glip_feats"

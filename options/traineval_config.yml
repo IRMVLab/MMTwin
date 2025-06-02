@@ -1,0 +1,7 @@
+train:
+  CUDA_VISIBLE_DEVICES: 0
+  resume: ./mmtwin_weights/xxx.pth.tar
+
+eval:
+  CUDA_VISIBLE_DEVICES: 0
+  resume: ./mmtwin_weights/mmtwin_pretrained.pth.tar

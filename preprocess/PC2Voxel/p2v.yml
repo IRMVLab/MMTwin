@@ -1,0 +1,12 @@
+paths:
+  odometry_path: "/data/HTPdata/EgoPAT3D-postproc/odometry/1/bathroomCabinet_1/c1_s47_e78_sx636_sy394_ex628_ey437.npy"
+  pointcloud_dir: "/data/HTPdata/EgoPAT3D-postproc/pointcloud_bathroomCabinet_1/"
+
+processing:
+  start_frame: 47
+  end_frame: 78
+  frames_ratio: 0.6  # Process first 60% of frames
+
+registration:
+  max_correspondence_distance: 0.01
+  estimation_method: "PointToPoint"  # Options: PointToPoint/PointToPlane

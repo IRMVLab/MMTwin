@@ -99,6 +99,8 @@ After modifying the params in `preprocess/VLExtraction/vle.yml`, you can use thi
 python generate_homography_offline.py
 ```
 
+Alternatively, please download the [features](https://pan.sjtu.edu.cn/web/share/3bb0c235973bcea9818997555e1846ad) we have produced.
+
 * 0.3 Point Cloud Aggregation
 
 We transform sequential point clouds into a unified reference frame for voxelization. Here is a demo to aggregate them. Please refer to the config file `preprocess/PC2Voxel/p2v.yml`.  
@@ -110,9 +112,12 @@ python generate_occupancy_offline.py
 
 This is just a demo to aggregate depth points. You can also use the point clouds processed with arm masks (0.4) as inputs. Notable, our main code can automatically achieve this and save the results to the required voxel files.
 
+Alternatively, you can download the [required voxel files](https://pan.sjtu.edu.cn/web/share/db130ef239321f33953074f71157e01e) we have produced.
+
+
 * 0.4 Arm Filtering for Clean Global Context
 
-We use MobileSAM to efficiently filter our arm point clouds for clean 3D global context. Please install the environments according to this [repo](https://github.com/ChaoningZhang/MobileSAM). Our repo has accommodated the MobileSAM repo, and you can download [MobileSAMv2](https://pan.sjtu.edu.cn/web/share/2e043be9b77d84183b2eaa97d26d7efd) and unzip it under preprocess/MobileSAM/. Remember to modify the params in `preprocess/MobileSAM/ms.yml`.  
+We use MobileSAM to efficiently filter our arm point clouds for clean 3D global context. Please install the environments according to this [repo](https://github.com/ChaoningZhang/MobileSAM). Our repo has accommodated the MobileSAM repo, and you can download the weights [here](https://pan.sjtu.edu.cn/web/share/389af55f1170ee70d0d6b916b0382696) and put it to `weights` folder. Remember to modify the params in `preprocess/MobileSAM/ms.yml`.  
 
 ```
 cd preprocess/MobileSAM
@@ -134,14 +139,15 @@ python loop_arm_pc_filter_egopat3d.py
  <img src="./docs/filtered_pc.png" style="height: 120px; object-fit: contain; flex: 1;" />
 </div>
 
-⬇️ Alternatively, you can directly download our preprocessed files as follows:
+⬇️ You can directly download all our preprocessed files as follows:
 | Description | Link | Config |
 |----------|----------|----------|
-| EgoPAT3D-DT from USST | [EgoPAT3D-postproc](https://pan.sjtu.edu.cn/web/share/f2783a1b3cfca7106175e86f7e089314)  | xx | 
-| camera egomotion | [motion_feats](https://pan.sjtu.edu.cn/web/share/383e0314aa1cd3348640d82b10a785f1)  | xx | 
-| occupancy voxel grids | [egopat_voxel_filtered](https://pan.sjtu.edu.cn/web/share/db130ef239321f33953074f71157e01e)    | xx |
-| MobileSAM requirements | [MobileSAMv2](https://pan.sjtu.edu.cn/web/share/2e043be9b77d84183b2eaa97d26d7efd)     | xx | 
-| point cloud example from raw EgoPAT3D | [pointcloud_bathroomCabinet_1](https://pan.sjtu.edu.cn/web/share/f78421cdabf38c5f0fb360232d9249bd)    | xx |
+| EgoPAT3D-DT from USST | [EgoPAT3D-postproc](https://pan.sjtu.edu.cn/web/share/f2783a1b3cfca7106175e86f7e089314)  | EgoPAT3D-postproc for [options/expopts.py](options/expopts.py) | 
+| GLIP features | [glip_feats](https://pan.sjtu.edu.cn/web/share/3bb0c235973bcea9818997555e1846ad)  | glip_feats_path for [options/expopts.py](options/expopts.py)  | 
+| camera egomotion | [motion_feats](https://pan.sjtu.edu.cn/web/share/383e0314aa1cd3348640d82b10a785f1)  | motion_feats_path for [options/expopts.py](options/expopts.py)  | 
+| occupancy voxel grids | [egopat_voxel_filtered](https://pan.sjtu.edu.cn/web/share/db130ef239321f33953074f71157e01e)    | voxel_path for [options/expopts.py](options/expopts.py) |
+| MobileSAM weights | [mobile_sam.pt](https://pan.sjtu.edu.cn/web/share/389af55f1170ee70d0d6b916b0382696)   | weights for [preprocess/MobileSAM](preprocess/MobileSAM) | 
+| point cloud example from raw EgoPAT3D | [pointcloud_bathroomCabinet_1](https://pan.sjtu.edu.cn/web/share/f78421cdabf38c5f0fb360232d9249bd)    | examples for [preprocess/PC2Voxel](preprocess/PC2Voxel) |
 
 
 #### 1. Test MMTwin on EgoPAT3D-DT
