@@ -151,7 +151,7 @@ Firstly, set the GPU number and the checkpoint file in `options/traineval_config
 ```
 bash val_traj.sh
 ```
-Note that you can modify the configurations of models and experiments in `options/expopts.py`. For instance, to test MMTwin on seen scenes in 2D space, please set `test_novel=True` and `test_space="3d"`.
+Note that you can modify the configurations of models and experiments in `options/expopts.py`. For instance, to test MMTwin on seen scenes in 2D space, please set `test_novel=False` and `test_space="2d"`.
 
 We have released the pretrained MMTwin models in this [link](https://pan.sjtu.edu.cn/web/share/6bd90bcfd215e7469c2f19d0ba63a49d). Feel free to try it.
 
