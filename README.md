@@ -151,13 +151,13 @@ Firstly, set the GPU number and the checkpoint file in `options/traineval_config
 ```
 bash val_traj.sh
 ```
-Note that you can modify the configurations of models and experiments in `options/expopts.py`. For instance, to test MMTwin in 2D space, please set ......
+Note that you can modify the configurations of models and experiments in `options/expopts.py`. For instance, to test MMTwin on seen scenes in 2D space, please set `test_novel=True` and `test_space="3d"`.
 
 We have released the pretrained MMTwin models in this [link](https://pan.sjtu.edu.cn/web/share/6bd90bcfd215e7469c2f19d0ba63a49d). Feel free to try it.
 
 #### 2. Train MMTwin on EgoPAT3D-DT
 
-We noticed that the performance gain from MHSA is marginal, so we omit it in this repo to improve computational efficiency. More versions will be released soon. To optimize MMTwin from scratch, simple run
+We noticed that the performance gain from MHSA is marginal, so we omit it in this repo to improve computational efficiency. More versions will be released soon. To optimize MMTwin from scratch, simply run
 ```
 bash train.sh
 ```
