@@ -9,7 +9,7 @@ We are updating the tutorials. Your patience is appreciated :)
 
 ## TODO
 - [x] Release the paper  :bowtie:
-- [x] Release our self-collected CABH Benchmark for fast HTP evaluation :sunglasses:	
+- [x] Release our self-collected CABH Benchmark for fast HTP evaluation :sunglasses:      
 - [ ] Release the code and pretrained models
 
 ## Suggested Data Structure
@@ -20,22 +20,22 @@ We are updating the tutorials. Your patience is appreciated :)
 ```
 HTPdata/
 |-- EgoPAT3D-postproc
-      |-- odometry
-      |-- trajectory_repair
-      |-- video_clips_hand
-      |-- pointcloud_bathroomCabinet_1  # for demo
-      |-- glip_feats
-      |-- motion_feats
-      |-- egopat_voxel_filtered
+ |-- odometry
+ |-- trajectory_repair
+ |-- video_clips_hand
+ |-- pointcloud_bathroomCabinet_1  # for demo
+ |-- glip_feats
+ |-- motion_feats
+ |-- egopat_voxel_filtered
 |-- CABH-benchmark
-      |-- redcup
-            |-- hand_data_for_pipeline_mask_redcup
-            |-- glip_feats_redcup
-            |-- motion_feats_redcup
-            |-- train_split.txt
-            |-- test_split.txt
-      |-- redapple
-      |-- box
+ |-- redcup
+ |-- hand_data_for_pipeline_mask_redcup
+ |-- glip_feats_redcup
+ |-- motion_feats_redcup
+ |-- train_split.txt
+ |-- test_split.txt
+ |-- redapple
+ |-- box
 ```
 </details>
 
@@ -48,13 +48,13 @@ HTPdata/
 #### 0. Data Preprocessing (optional)
 
 <details>
-<summary>&#x1F527 We provide some scripts to peocess raw data manually. </summary>
+<summary>&#x1F527 We provide some scripts to process raw data manually. </summary>
 
 <br> 
 
 * 0.1 Camera Egomotion Generation 
 
-Please refer to the confid file `preprocess/CamEgoGen/ceg.yml`.  
+Please refer to the config file `preprocess/CamEgoGen/ceg.yml`.  
 ```
 cd preprocess/CamEgoGen
 python generate_homography_offline.py
@@ -69,25 +69,25 @@ git clone https://github.com/microsoft/GLIP
 rsync -a --progress GLIP/ VLExtraction/ 
 cd VLExtraction
 ```
-Then install requirements of GLIP and modify its source code to collect vision-language fusion features as follows:
+Then install the requirements of GLIP and modify its source code to collect vision-language fusion features as follows:
 
 ```
 1. maskrcnn_benchmark/modeling/detector/generalized_vl_rcnn.py
 def forward(self, 
-      ...
-      return result
+ ...
+ return result
 ->    return result, fused_visual_features
 
 2. maskrcnn_benchmark/engine/predictor_glip.py
 def compute_prediction(self, original_image, 
-      ...
-      predictions = self.model(image_list, ...
+ ...
+ predictions = self.model(image_list, ...
 ->    predictions, visual_features = self.model(image_list, ...
 
 3. maskrcnn_benchmark/engine/predictor_glip.py
 def run_on_web_image(self, 
-      ...
-      predictions = self.compute_prediction(original_image, ...
+ ...
+ predictions = self.compute_prediction(original_image, ...
 ->    predictions, visual_features = self.compute_prediction(original_image, ...
 ```
 After modifying the params in `preprocess/VLExtraction/vle.yml`, you can use this script to generate GLIP features for all the videos in EgoPAT3D-DT:
@@ -97,7 +97,7 @@ python generate_homography_offline.py
 
 * 0.3 Point Cloud Aggregation
 
-We transform sequential point clouds to a unified reference frame for voxelization. Here is a demo to aggregate them. Please refer to the confid file `preprocess/PC2Voxel/p2v.yml`.  
+We transform sequential point clouds into a unified reference frame for voxelization. Here is a demo to aggregate them. Please refer to the config file `preprocess/PC2Voxel/p2v.yml`.  
 
 ```
 cd preprocess/PC2Voxel
@@ -108,7 +108,7 @@ This is just a demo to aggregate depth points. You can also use the point clouds
 
 * 0.4 Arm Filtering for Clean Global Context
 
-We use MobileSAM to efficiently filter our arm point clouds for clean 3D global context. Please install the environments according to this [repo](https://github.com/ChaoningZhang/MobileSAM). Our repo has accomodated MobileSAM repo, and you can download [MobileSAMv2](https://pan.sjtu.edu.cn/web/share/2e043be9b77d84183b2eaa97d26d7efd) and unzip it under preprocess/MobileSAM/. Remember to modify the params in `preprocess/MobileSAM/ms.yml`.  
+We use MobileSAM to efficiently filter our arm point clouds for clean 3D global context. Please install the environments according to this [repo](https://github.com/ChaoningZhang/MobileSAM). Our repo has accommodated the MobileSAM repo, and you can download [MobileSAMv2](https://pan.sjtu.edu.cn/web/share/2e043be9b77d84183b2eaa97d26d7efd) and unzip it under preprocess/MobileSAM/. Remember to modify the params in `preprocess/MobileSAM/ms.yml`.  
 
 ```
 cd preprocess/MobileSAM
@@ -125,9 +125,9 @@ python loop_arm_pc_filter_egopat3d.py
 </details>
 
 <div style="display: flex; justify-content: space-between; width: 100%;">
-  <img src="./docs/raw_image.png" style="height: 120px; object-fit: contain; flex: 1;" />
-  <img src="./docs/arm_mask.png" style="height: 120px; object-fit: contain; flex: 1;" />
-  <img src="./docs/filtered_pc.png" style="height: 120px; object-fit: contain; flex: 1;" />
+ <img src="./docs/raw_image.png" style="height: 120px; object-fit: contain; flex: 1;" />
+ <img src="./docs/arm_mask.png" style="height: 120px; object-fit: contain; flex: 1;" />
+ <img src="./docs/filtered_pc.png" style="height: 120px; object-fit: contain; flex: 1;" />
 </div>
 
 ⬇️ Alternatively, you can directly download our preprocessed files as follows:
@@ -152,7 +152,7 @@ We have released the pretrained MMTwin models in this [link](). Feel free to try
 
 #### 2. Train MMTwin on EgoPAT3D-DT
 
-We noticed that the performance gain from MHSA is marginal, so we omit it in this repo to improve computational efficiency. To optimize MMTwin from scratch, simple run
+We noticed that the performance gain from MHSA is marginal, so we omit it in this repo to improve computational efficiency. More versions will be released soon. To optimize MMTwin from scratch, simple run
 ```
 bash train.sh
 ```
@@ -167,7 +167,7 @@ bash train.sh
 We collected multiple egocentric videos capturing human hands performing simple object manipulation tasks. This benchmark enables rapid validation of the potential of human hand trajectory prediction models for downstream manipulation applications.​​
 
 ![](https://github.com/IRMVLab/MMTwin/blob/main/docs/pred_combined.gif)
-Past trajectories are shown in green, and MMTwin’s predicted future trajectories are displayed in red. The direct detection results from the visual grounding model on future frames are visualized in blue. As can be seen, MMTwin demonstrates performance comparable to the visual grounding model even if the visual grounding model can "look into future".
+Past trajectories are shown in green, and MMTwin’s predicted future trajectories are displayed in red. The direct detection results from the visual grounding model on future frames are visualized in blue. As can be seen, MMTwin demonstrates performance comparable to the visual grounding model even if the visual grounding model can "look into the future".
 
 ⬇️ Feel free to download the raw/preprocessed data of CABH benchmark.
 
@@ -200,12 +200,12 @@ We also collected an extension of the CABH benchmark to evaluate multi-finger pr
 
 ```
 @misc{ma2025mmtwin,
-      title={Novel Diffusion Models for Multimodal 3D Hand Trajectory Prediction}, 
-      author={Junyi Ma and Wentao Bao and Jingyi Xu and Guanzhong Sun and Xieyuanli Chen and Hesheng Wang},
-      year={2025},
-      eprint={2504.07375},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2504.07375}, 
+ title={Novel Diffusion Models for Multimodal 3D Hand Trajectory Prediction}, 
+ author={Junyi Ma and Wentao Bao and Jingyi Xu and Guanzhong Sun and Xieyuanli Chen and Hesheng Wang},
+ year={2025},
+ eprint={2504.07375},
+ archivePrefix={arXiv},
+ primaryClass={cs.CV},
+ url={https://arxiv.org/abs/2504.07375}, 
 }
 ```
