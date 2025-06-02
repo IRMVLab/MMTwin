@@ -153,7 +153,7 @@ bash val_traj.sh
 ```
 Note that you can modify the configurations of models and experiments in `options/expopts.py`. For instance, to test MMTwin on seen scenes in 2D space, please set `test_novel=False` and `test_space="2d"`.
 
-We have released the pretrained MMTwin models in this [link](https://pan.sjtu.edu.cn/web/share/b6fea788af3e15475562e15e8c2e82bc). Feel free to try it.
+We have released the pretrained MMTwin models in this [link](https://pan.sjtu.edu.cn/web/share/b6fea788af3e15475562e15e8c2e82bc). Feel free to download and put it in `./mmtwin_weights/`. 
 
 #### 2. Train MMTwin on EgoPAT3D-DT
 
