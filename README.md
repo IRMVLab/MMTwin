@@ -142,8 +142,20 @@ python loop_arm_pc_filter_egopat3d.py
 
 #### 1. Test MMTwin on EgoPAT3D-DT
 
+Firstly, set the GPU number and the checkpoint file in `options/traineval_config.yml`. Then you can evaluate the performance on EgoPAT3D-DT by 
+```
+bash val_traj.sh
+```
+Note that you can modify the configurations of models and experiments in `options/expopts.py`. For instance, to test MMTwin in 2D space, please set ......
+
+We have released the pretrained MMTwin models in this [link](). Feel free to try it.
 
 #### 2. Train MMTwin on EgoPAT3D-DT
+
+We noticed that the performance gain from MHSA is marginal, so we omit it in this repo to improve computational efficiency. To optimize MMTwin from scratch, simple run
+```
+bash train.sh
+```
 
 
 
