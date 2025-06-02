@@ -4,11 +4,9 @@
 
 The code and pretrained models for our paper "Novel Diffusion Models for Multimodal 3D Hand Trajectory Prediction" will be released here. Please refer to our [paper](https://arxiv.org/abs/2504.07375) and the [project page](https://irmvlab.github.io/mmtwin.github.io) for more details.
 
----
 ![](https://github.com/IRMVLab/MMTwin/blob/main/docs/pred_combined.gif)
 
 ![](https://github.com/IRMVLab/MMTwin/blob/main/docs/merged_cases_sampled.gif)
----
 
 We are updating the tutorials. Your patience is appreciated :)
 
