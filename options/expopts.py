@@ -46,7 +46,7 @@ def add_nets_opts(parser):
     parser.add_argument('--target_dim', type=int, default=1024)
     parser.add_argument('--n_layers', type=int, default=2)
     parser.add_argument('--diffusion_steps', type=int, default=1000)
-    parser.add_argument('--infer_gap', type=int, default=1000)
+    parser.add_argument('--infer_gap', type=int, default=10)
     parser.add_argument('--noise_schedule', type=str, default="sqrt")
     parser.add_argument('--learn_sigma', type=bool, default=False)
     parser.add_argument('--timestep_respacing', type=str, default="")
