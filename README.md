@@ -195,7 +195,7 @@ Past trajectories are shown in green, and MMTwin’s predicted future trajectori
 * **Link (motion info)**: Camera egomotion homography.
 * **Link (train/test splits)**: The dataset splits used for training and evaluation.
 
-The implementation for our CABH benchmark will be released soon.
+The implementation of MMTwin for our CABH benchmark will be released soon.
 
 
 🤝 If our work is helpful to your research, we would appreciate a citation to our paper:
