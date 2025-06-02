@@ -14,7 +14,8 @@ We are updating the tutorials. Your patience is appreciated :)
 ## TODO
 - [x] Release the paper  :bowtie:
 - [x] Release our self-collected CABH Benchmark for fast HTP evaluation :sunglasses:      
-- [ ] Release the code and pretrained models
+- [x] Release the code and pretrained models on EgoPAT3D
+- [ ] Release the code and pretrained models on our CABH benchmark
 
 ## Suggested Data Structure
 
