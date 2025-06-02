@@ -6,6 +6,7 @@ The code and pretrained models for our paper "Novel Diffusion Models for Multimo
 
 ---
 ![](https://github.com/IRMVLab/MMTwin/blob/main/docs/pred_combined.gif)
+
 ---
 
 We are updating the tutorials. Your patience is appreciated :)
