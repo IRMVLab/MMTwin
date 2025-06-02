@@ -6,7 +6,10 @@ The code and pretrained models for our paper "Novel Diffusion Models for Multimo
 
 ![](https://github.com/IRMVLab/MMTwin/blob/main/docs/pred_combined.gif)
 
-![Demo](https://raw.githubusercontent.com/IRMVLab/MMTwin/main/docs/merged_cases_sampled.gif)
+<video width="100%" autoplay loop muted>
+  <source src="https://raw.githubusercontent.com/IRMVLab/MMTwin/main/docs/merged_cases_sampled.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 We are updating the tutorials. Your patience is appreciated :)
 
