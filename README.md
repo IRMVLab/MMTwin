@@ -1,4 +1,4 @@
-# MMTwin: New Path to Human-Robot Policy Transfer?
+# MMTwin: Multimodal 3D Hand Trajectory Prediction
 
 <img src="https://github.com/IRMVLab/MMTwin/blob/main/docs/title_page.png" />
 
@@ -194,16 +194,7 @@ Past trajectories are shown in green, and MMTwin’s predicted future trajectori
 * **Link (motion info)**: Camera egomotion homography.
 * **Link (train/test splits)**: The dataset splits used for training and evaluation.
 
-
-## Work in Progress
-
-### CABH-E
-
-We also collected an extension of the CABH benchmark to evaluate multi-finger prediction, which will be released soon.
-
-### Human-Robot Policy Transfer
-
-​​We are working on directly transferring MMTwin (trained on human motion data) to robotic manipulation, and the transfer paradigm will also be open-sourced.
+The implementation for our CABH benchmark will be released soon.
 
 
 🤝 If our work is helpful to your research, we would appreciate a citation to our paper:
