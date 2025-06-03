@@ -1,14 +1,22 @@
-# MMTwin: Multimodal 3D Hand Trajectory Prediction
+<!-- <img src="https://github.com/IRMVLab/MMTwin/blob/main/docs/title_page.png" /> -->
 
-<img src="https://github.com/IRMVLab/MMTwin/blob/main/docs/title_page.png" />
+<div align="center">
+
+<h1>MMTwin: Novel Diffusion Models for Multimodal 3D Hand Trajectory Prediction</h1>
+
+<a href="https://arxiv.org/abs/2504.07375"><img src="https://img.shields.io/badge/arXiv-2504.07375-b31b1b" alt="arXiv"></a>
+<a href="https://irmvlab.github.io/mmtwin.github.io/"><img src="https://img.shields.io/badge/Project_Page-green" alt="Project Page"></a>
+<a href='https://huggingface.co/spaces/facebook/vggt'>
+  <img src='https://img.shields.io/badge/Status-Under_Review-blue' alt='Under Review'>
+</a>
 
 [Junyi Ma](https://bit-mjy.github.io/)<sup>1</sup>, [Wentao Bao](https://cogito2012.github.io/homepage/)<sup>2</sup>, [Jingyi Xu](https://github.com/BIT-XJY)<sup>1</sup>, [Guanzhong Sun](https://github.com)<sup>3</sup>, [Xieyuanli Chen](https://scholar.google.com/citations?user=DvrngV4AAAAJ&hl=zh-CN)<sup>4</sup>, [Hesheng Wang](https://scholar.google.com/citations?hl=en&user=q6AY9XsAAAAJ)<sup>1</sup>
 
 <sup>1</sup> Shanghai Jiao Tong University  <sup>2</sup> Meta Reality Labs  
 <sup>3</sup> China University of Mining and Technology  
 <sup>4</sup> National University of Defense Technology  
+</div>
 
-The code and pretrained models for our paper "Novel Diffusion Models for Multimodal 3D Hand Trajectory Prediction" will be released here. Please refer to our [paper](https://arxiv.org/abs/2504.07375) and the [project page](https://irmvlab.github.io/mmtwin.github.io) for more details.
 
 ![](https://github.com/IRMVLab/MMTwin/blob/main/docs/pred_combined.gif)
 
@@ -217,3 +225,7 @@ The implementation of MMTwin for our CABH benchmark will be released soon.
  url={https://arxiv.org/abs/2504.07375}, 
 }
 ```
+
+## Acknowledgements
+We gratefully acknowledge the inspiring work of [DiffuSeq](https://github.com/Shark-NLP/DiffuSeq), [hoi-forecast](https://github.com/stevenlsw/hoi-forecast), [USST](https://github.com/oppo-us-research/USST/), and other valuable contributions from the community.
+
