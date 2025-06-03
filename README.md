@@ -225,6 +225,10 @@ The implementation of MMTwin for our CABH benchmark will be released soon.
 }
 ```
 
+## Prior Works
+We have released [Diff-IP2D](https://github.com/IRMVLab/Diff-IP2D), a basic 2D HOI prediction approach. Its open-source code presents how to implement 2D hand trajectory prediction in the [EPIC-KITCHENS](https://epic-kitchens.github.io/2025) dataset. Feel free to try it!
+
+
 ## Acknowledgements
-We gratefully acknowledge the inspiring work of [DiffuSeq](https://github.com/Shark-NLP/DiffuSeq), [hoi-forecast](https://github.com/stevenlsw/hoi-forecast), [USST](https://github.com/oppo-us-research/USST/), and other valuable contributions from the community.
+We gratefully acknowledge the inspiring work of [DiffuSeq](https://github.com/Shark-NLP/DiffuSeq), [hoi-forecast](https://github.com/stevenlsw/hoi-forecast), [USST](https://github.com/oppo-us-research/USST/), [mamba.py](https://github.com/alxndrTL/mamba.py) and other valuable contributions from the community.
 
