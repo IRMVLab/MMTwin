@@ -8,6 +8,8 @@
 <a href="https://irmvlab.github.io/mmtwin.github.io/"><img src="https://img.shields.io/badge/Project_Page-green" alt="Project Page"></a>
 <a href='https://huggingface.co/spaces/facebook/vggt'>
   <img src='https://img.shields.io/badge/Status-Under_Review-blue' alt='Under Review'>
+      <a href="https://lbesson.mit-license.org/"><img src="https://img.shields.io/badge/License-MIT-purple.svg?style=flat-square" /></a>
+
 </a>
 
 [Junyi Ma](https://bit-mjy.github.io/)<sup>1</sup>, [Wentao Bao](https://cogito2012.github.io/homepage/)<sup>2</sup>, [Jingyi Xu](https://github.com/BIT-XJY)<sup>1</sup>, [Guanzhong Sun](https://github.com)<sup>3</sup>, [Xieyuanli Chen](https://scholar.google.com/citations?user=DvrngV4AAAAJ&hl=zh-CN)<sup>4</sup>, [Hesheng Wang](https://scholar.google.com/citations?hl=en&user=q6AY9XsAAAAJ)<sup>1</sup>
@@ -33,7 +35,7 @@ We are updating the tutorials. Your patience is appreciated :)
 ## Suggested Data Structure
 
 <details>
-<summary>&#x1F4C1 We strongly recommend following the default data structure for fast reproducing. </summary>
+<summary>&#x1F4C1 We strongly recommend following the default data structure for fast reproducing. <strong>[Click to expand]</strong></summary>
 
 ```
 /data/HTPdata/
@@ -66,7 +68,7 @@ We are updating the tutorials. Your patience is appreciated :)
 #### 0. Data Preprocessing (optional)
 
 <details>
-<summary>&#x1F527 We provide some scripts to process raw data manually. </summary>
+<summary>&#x1F527 We provide some scripts to process raw data manually. <strong>[Click to expand]</strong></summary>
 
 <br> 
 
