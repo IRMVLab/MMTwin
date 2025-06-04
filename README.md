@@ -23,6 +23,8 @@
 
 ![](https://github.com/IRMVLab/MMTwin/blob/main/docs/merged_cases_sampled.gif)
 
+​**<span style="color:green">■</span> Past (green) | <span style="color:red">■</span> Predicted (red) | <span style="color:blue">■</span> GT (blue)**​
+
 We are updating the tutorials. Your patience is appreciated :)
 
 
