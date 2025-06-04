@@ -16,14 +16,14 @@
 
 <sup>1</sup> Shanghai Jiao Tong University 
  <sup>2</sup> Meta Reality Labs  <sup>3</sup> China University of Mining and Technology  <sup>4</sup> National University of Defense Technology  
-</div>
-
 
 ![](https://github.com/IRMVLab/MMTwin/blob/main/docs/pred_combined.gif)
 
 ![](https://github.com/IRMVLab/MMTwin/blob/main/docs/merged_cases_sampled.gif)
 
 🟢 **Green**: past waypoints | 🔴 **Red**: predicted waypoints | 🔵 **Blue**: GT waypoints
+
+</div>
 
 We are updating the tutorials. Your patience is appreciated :)
 
