@@ -25,7 +25,7 @@
 
 </div>
 
-This paper is accepted by [IROS 2025](https://www.iros25.org/). We are updating the tutorials. Your patience is appreciated :)
+This work has been accepted by [IROS 2025](https://www.iros25.org/) :tada: We are updating the tutorials. Your patience is appreciated :)
 
 
 ## TODO
