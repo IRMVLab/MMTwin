@@ -7,7 +7,7 @@
 <a href="https://arxiv.org/abs/2504.07375"><img src="https://img.shields.io/badge/arXiv-2504.07375-b31b1b" alt="arXiv"></a>
 <a href="https://irmvlab.github.io/mmtwin.github.io/"><img src="https://img.shields.io/badge/Project_Page-green" alt="Project Page"></a>
 <a href='https://huggingface.co/spaces/facebook/vggt'>
-  <img src='https://img.shields.io/badge/Status-Under_Review-blue' alt='Under Review'>
+  <img src='https://img.shields.io/badge/Status-Accepted_by_IROS25-blue' alt='Under Review'>
       <a href="https://lbesson.mit-license.org/"><img src="https://img.shields.io/badge/License-MIT-purple.svg?style=flat-square" /></a>
 
 </a>
