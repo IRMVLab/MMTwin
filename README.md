@@ -227,6 +227,16 @@ The implementation of MMTwin for our CABH benchmark will be released soon.
  primaryClass={cs.CV},
  url={https://arxiv.org/abs/2504.07375}, 
 }
+
+@misc{ma2024madiff,
+      title={MADiff: Motion-Aware Mamba Diffusion Models for Hand Trajectory Prediction on Egocentric Videos}, 
+      author={Junyi Ma and Xieyuanli Chen and Wentao Bao and Jingyi Xu and Hesheng Wang},
+      year={2024},
+      eprint={2409.02638},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2409.02638}, 
+}
 ```
 
 ## Prior Works
