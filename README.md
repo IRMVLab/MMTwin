@@ -228,11 +228,14 @@ The implementation of MMTwin for our CABH benchmark will be released soon.
  url={https://arxiv.org/abs/2504.07375}, 
 }
 
-@article{ma2025unihand,
-  title={Uni-Hand: Universal Hand Motion Forecasting in Egocentric Views},
-  author={Ma, Junyi and Bao, Wentao and Xu, Jingyi and Sun, Guanzhong and Zheng, Yu and Zhang, Erhang and Chen, Xieyuanli and Wang, Hesheng},
-  journal={arXiv preprint arXiv:2511.12878},
-  year={2025}
+@misc{ma2025unihand,
+title={Uni-Hand: Universal Hand Motion Forecasting in Egocentric Views}, 
+author={Junyi Ma and Wentao Bao and Jingyi Xu and Guanzhong Sun and Yu Zheng and Erhang Zhang and Xieyuanli Chen and Hesheng Wang},
+year={2025},
+eprint={2511.12878},
+archivePrefix={arXiv},
+primaryClass={cs.CV},
+url={https://arxiv.org/abs/2511.12878}, 
 }
 ```
 
