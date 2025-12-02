@@ -27,6 +27,7 @@
 
 This work has been accepted by [IROS 2025](https://www.iros25.org/) :tada: We are updating the tutorials. Your patience is appreciated :)
 
+Please refer to the extended version [Uni-Hand](https://github.com/IRMVLab/UniHand) for human-video-based imitation learning.
 
 ## TODO
 - [x] Release the paper  :bowtie:
